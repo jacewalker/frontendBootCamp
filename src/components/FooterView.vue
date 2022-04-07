@@ -1,35 +1,57 @@
 <template>
-    <section class="p-5">
+    <footer class="p-5 bg-dark text-white text-center position-relative">
         <div class="container">
-            <div class="row g-4">
-                <div class="col-md">
-                    <h2 class="text-center mb-4">Contact Info</h2>
-                    <ul class="list-group list-group-flush lead text-center">
-                        <li class="list-group-item">
-                            <span class="fw-bold">Main Location: </span>50 Main St, Boston MA
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Enrollment Phone: </span>(555) 555-5555)
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Student Phone: </span>(333) 333-3333
-                        </li>
-                        <li class="list-group-item">
-                            <span class="fw-bold">Student Email: </span>student@frontendbc.test
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
         </div>
-    </section>
-</template>
+    </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="enroll">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="lead">Fill out this form and we will get back to you.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="first-name" class="col-form-label">First Name: </label>
+                    <input type="text" class="form-control" id="first-name">
+                </div>
+                <div class="mb-3">
+                    <label for="last-name" class="col-form-label">Last Name: </label>
+                    <input type="text" class="form-control" id="last-name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email: </label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="col-form-label">Phone: </label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</template>
 
 
 <script>
 
 export default {
-    name: 'ContactView',
+    name: 'FooterView',
     props: {}
 }
 </script>

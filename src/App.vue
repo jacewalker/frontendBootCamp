@@ -7,6 +7,7 @@
   <FAQView/>
   <InstructorsView/>
   <ContactView/>
+  <FooterView/>
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import LearnView from './components/LearnView.vue'
 import FAQView from './components/FAQView.vue'
 import InstructorsView from './components/InstructorsView.vue'
 import ContactView from './components/ContactView.vue'
+import FooterView from './components/FooterView.vue'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     LearnView,
     FAQView,
     InstructorsView,
-    ContactView
+    ContactView,
+    FooterView
   }
 }
 </script>

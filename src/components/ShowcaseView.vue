@@ -7,7 +7,7 @@
                     <p class="lead my-4">
                         We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role. 
                     </p>
-                    <button class="btn btn-primary btn-lg">Start the Enrollment</button>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Start the Enrollment</button>
                 </div>
                 <img class="img-fluid w-50 d-none d-sm-block" src="https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-website/7656406f5e7b5cb1ac5879df8fd93f1182e215bf/img/showcase.svg" alt="">
             </div>
