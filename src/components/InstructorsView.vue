@@ -1,55 +1,63 @@
 <template>
-    <section class="p-5">
+    <section id="instructors" class="p-5 bg-primary">
         <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
+            <h2 class="text-center text-whit">Our Instructors</h2>
+            <p class="lead text-center text-white mb-5">
+                Our instructors all have 5+ years working as a web developer in the industry
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-laptop"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                Virtual
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad?
-                            </p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                            
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">John Doe</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque repellendus ipsa consequatur, architecto quaerat.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-secondary text-light">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-person-square"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                Hybrid
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad?
-                            </p>
-                            <a href="#" class="btn btn-dark">Read more</a>
-                            
+                            <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Jane Doe</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque repellendus ipsa consequatur, architecto quaerat.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-secondary text-light">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
                         <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <i class="bi bi-people"></i>
-                            </div>
-                            <h3 class="card-title mb-3">
-                                In Person
-                            </h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad?
-                            </p>
-                            <a href="#" class="btn btn-primary">Read more</a>
-                            
+                            <img src="https://randomuser.me/api/portraits/men/13.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Steve Smith</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque repellendus ipsa consequatur, architecto quaerat.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/14.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Sarah Smith</h3>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque repellendus ipsa consequatur, architecto quaerat.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +68,7 @@
 
 <script>
 export default {
-    name: 'BoxesView',
+    name: 'InstructorsView',
     props: {}
 }
 </script>

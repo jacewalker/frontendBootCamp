@@ -5,6 +5,7 @@
   <BoxesView/>
   <LearnView/>
   <FAQView/>
+  <InstructorsView/>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import NewsletterView from './components/NewsletterView.vue'
 import BoxesView from './components/BoxesView.vue'
 import LearnView from './components/LearnView.vue'
 import FAQView from './components/FAQView.vue'
+import InstructorsView from './components/InstructorsView.vue'
 
 export default {
   name: 'App',
@@ -24,6 +26,7 @@ export default {
     BoxesView,
     LearnView,
     FAQView,
+    InstructorsView
   }
 }
 </script>
