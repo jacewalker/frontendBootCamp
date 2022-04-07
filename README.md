@@ -1,5 +1,5 @@
 # learningbootstrap
-Learning Frontend through Traversy Media's Youtube tutorial.
+Learning Frontend through Traversy Media's Youtube tutorial with a touch of `Vue`
 <br/>
 Youtube: https://www.youtube.com/watch?v=4sosXZsdy-s
 
