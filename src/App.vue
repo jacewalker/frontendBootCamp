@@ -4,6 +4,7 @@
   <NewsletterView/>
   <BoxesView/>
   <LearnView/>
+  <FAQView/>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import ShowCaseView from './components/ShowcaseView.vue'
 import NewsletterView from './components/NewsletterView.vue'
 import BoxesView from './components/BoxesView.vue'
 import LearnView from './components/LearnView.vue'
+import FAQView from './components/FAQView.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     ShowCaseView,
     NewsletterView,
     BoxesView,
-    LearnView
+    LearnView,
+    FAQView,
   }
 }
 </script>
