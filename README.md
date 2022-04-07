@@ -1,4 +1,6 @@
 # learningbootstrap
+Learning Frontend through Traversy Media's Youtube tutorial.
+Youtube: https://www.youtube.com/watch?v=4sosXZsdy-s
 
 ## Project setup
 ```
