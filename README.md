@@ -1,4 +1,4 @@
-# learningbootstrap
+# Frontend Bootcamp with VueJS
 Learning Frontend through Traversy Media's Youtube tutorial with a touch of `VueJS`
 <br/>
 Youtube: https://www.youtube.com/watch?v=4sosXZsdy-s
