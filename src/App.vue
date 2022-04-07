@@ -1,14 +1,20 @@
 <template>
-  <FrontendBootcamp/>
+  <NavbarView/>
+  <ShowCaseView/>
+  <NewsletterView/>
 </template>
 
 <script>
-import FrontendBootcamp from './components/FrontendBootcamp'
+import NavbarView from './components/NavbarView.vue'
+import ShowCaseView from './components/ShowcaseView.vue'
+import NewsletterView from './components/NewsletterView.vue'
 
 export default {
   name: 'App',
   components: {
-    FrontendBootcamp,
+    NavbarView,
+    ShowCaseView,
+    NewsletterView
   }
 }
 </script>
